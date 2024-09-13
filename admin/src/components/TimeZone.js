@@ -28,7 +28,7 @@ const TimeZone = ({ attribute, disabled, intlLabel, name, onChange, required, va
   }, [value, required]);
 
   const handleChange = (selectedOption) => {
-    // If required, check if the value is empty
+    // IF REQUIRED, CHECK IF THE VALUE IS EMPTY INTO BOX
     if (required && !selectedOption) {
       setHasError(true);
     } else {
