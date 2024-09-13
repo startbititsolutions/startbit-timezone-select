@@ -1,10 +1,10 @@
 {
   "name": "startbit-timezone-select",
   "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "Startbit Timezone Select is a Strapi plugin that adds a custom Timezone field, allowing users to select and display time zones listing in UTC format.",
   "strapi": {
     "name": "startbit-timezone-select",
-    "description": "Description of Startbit Timezone Select plugin",
+    "description": "Startbit Timezone Select is a Strapi plugin that adds a custom Timezone field, allowing users to select and display time zones listing in UTC format.",
     "kind": "plugin",
     "displayName": "Startbit Timezone Select"
   },
