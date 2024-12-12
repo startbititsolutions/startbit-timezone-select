@@ -54,6 +54,11 @@ yarn build
 npm run build
 ```
 
+## Run command
+Run the below command to start your strapi project on local system and go to admin by typing /admin into your home URL.
+![timezone select screenshot](./start-admin.png)
+
+
 ## Disabling altogether
 Like every other plugin, you can also disable this plugin in the plugins configuration file.
 Go to ./config/plugins.js and switch enabled to false
@@ -72,7 +77,7 @@ module.exports = () => ({
 ## Usage
 
 After installation you will find the timezone-select at the custom field section of the content-type builder.
-![timezone select screenshot](./timezone-select-field.png)
+![timezone select screenshot](./timezone-custom-select-field.png)
 
 Now you can select any country from the list. The Alpha-2 code of the selected timezone is stored in the database.
 
