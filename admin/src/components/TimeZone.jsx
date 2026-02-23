@@ -67,7 +67,7 @@ const TimeZone = forwardRef((props, ref) => {
 
         {options.map((tz) => (
           <SingleSelectOption key={tz.value} value={tz.value}>
-            {tz.label} 
+            {tz.label}
           </SingleSelectOption>
         ))}
       </SingleSelect>
