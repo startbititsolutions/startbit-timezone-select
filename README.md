@@ -16,18 +16,18 @@ To install this plugin, you need to add an NPM dependency to your Strapi applica
 
 ```sh
 # Using Yarn
-yarn add @strapi/plugin-startbit-timezone-select
+yarn add startbit-timezone-select
 # Or using NPM
-npm install @strapi/plugin-startbit-timezone-select
+npm install startbit-timezone-select
 ```
 
 ## Dependency
 Run the below command into terminal to install the pear package of plugin on root
 
 ```sh
-npm install react-timezone-select
+npm install react-timezone-select react-select
 # or
-yarn add react-timezone-select
+yarn add react-timezone-select react-select
 ```
 
 ## Configuration
